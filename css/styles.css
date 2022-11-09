@@ -729,9 +729,11 @@ background-color: var(--second-btn-color);
 
 .project-item {
   width: calc((100% - 60px) /3);
-  
+position: relative;
+   overflow: hidden;
 }
-.project-item:hover,
+
+.project-item:hover .window-owerlay,
 .project-item:focus .window-owerlay {
   
 
@@ -742,6 +744,11 @@ transform: translateY(0);
  position: relative;
  overflow: hidden;
 }
+.tehno-product:hover .window-owerlay,
+.tehno-product:focus .window-owerlay{
+ transform: translateY(0);
+}
+
 .window-owerlay {
    position: absolute;
   display: flex;
