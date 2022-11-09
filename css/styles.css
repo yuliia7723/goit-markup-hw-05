@@ -739,11 +739,15 @@ background-color: var(--second-btn-color);
   width: calc((100% - 60px) /3);
 position: relative;
    overflow: hidden;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 .project-item:hover .window-owerlay,
 .project-item:focus .window-owerlay {
-  transform: translateY(0);
+  transform: translateY(0),
+  box-shadow  0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
  }
 
 .tehno-product {
