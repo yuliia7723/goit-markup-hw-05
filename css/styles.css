@@ -96,6 +96,7 @@ align-items: center;
 display: flex;
  padding-bottom: 32px;
  padding-top: 32px;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav {
@@ -106,7 +107,7 @@ display: flex;
 .nav-link:hover,
 .nav-link:focus  {
   color:var(--second-btn-color);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .nav-link .studio:visited {
@@ -152,12 +153,12 @@ margin-right: 93px;
   .header-icon-contact {
     fill: currentColor;
     margin-right: 10px;
-   
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
 .header-icon:hover {
    fill:var(--second-btn-color);
-   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
  
 .contact-link {
@@ -168,13 +169,13 @@ font-weight: 500;
   color:var(--second-title-color);
   display: flex;
   align-items: center;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .contact-link:hover,
  .contact-link:focus  {
 color:var(--second-btn-color);
-transition: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .contact-link .number {
@@ -234,13 +235,13 @@ margin-top: 30px;
   border-radius: 4px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 background:var(--second-btn-color);
- 
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-main:hover,
 .button-main:focus  {
   color:var(--main-btn-color);
   background-color: var(--background-footer-color);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .button-main:active {
@@ -448,13 +449,13 @@ align-items: center;
 justify-content: center;
 width: 44px;
   height: 44px;
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-linc:hover,
 .soc-linc:focus {
 background-color:var(--second-btn-color);
   color:var(--color-header);
-   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
   
@@ -493,6 +494,7 @@ color: #AFB1B8;
 justify-content: center;
 width: 170px;
  height: 92px;
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .detal-icon {
  fill: currentColor;
@@ -501,7 +503,7 @@ width: 170px;
 .client-box:hover,
  .client-box:focus
  { 
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
 
   border-color:var(--second-btn-color);
     color:var(--second-btn-color);}
@@ -589,21 +591,23 @@ letter-spacing: 0.03em;
     height: 44px;
     border-radius: 50%;
     background-color: #43444D;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .footer-icon-soc:hover,
   .footer-icon-soc:focus
   {
     background-color:var(--second-btn-color);
-transition: cubic-bezier(0.4, 0, 0.2, 1);
+
   }
   .soc-icon-footer:hover,
 .soc-icon-footer:focus {
   background-color: #2196F3;
   color: #EEEEEE;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .soc-icon-footer {
   fill:#FFFFFF;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-list-ikon {
@@ -684,6 +688,7 @@ background-color: var(--second-btn-color);
 
 
 /* project */
+
 .portfolio-link {
    text-decoration: none;
   color:var(--second-title-color);
