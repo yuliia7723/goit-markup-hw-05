@@ -553,6 +553,7 @@ letter-spacing: 0.03em;
 font-weight: 700;
   font-size: 26px;
   margin-bottom: 20px;
+  display: block;
 }
 
 .footer-contact-link {
@@ -608,7 +609,7 @@ letter-spacing: 0.03em;
     height: 44px;
     border-radius: 50%;
     background-color: #43444D;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: 
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .footer-icon-soc:hover,
@@ -634,9 +635,7 @@ letter-spacing: 0.03em;
 .footer-list-ikon {
     background: rgba(255, 255, 255, 0.1);
   }
-  .footer-nav-address {
-     margin-bottom: 9px;
-  }
+
  
 .footer-connect {
   font-size: 14px;
@@ -716,20 +715,21 @@ background-color: var(--second-btn-color);
   font-size: 16px;
   line-height: 1.87;
  display: block;
-
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);}
-
-    .portfolio-link:hover .owerlay,
-.portfolio-link:focus .owerlay {
+ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+   
+}
+.portfolio-link:hover .window-owerlay,
+.portfolio-link:focus .window-owerlay {
   transform: translateY(0);
 }
-
-
+   
 .project-container {
    background-color: var(--color-container);
    cursor: pointer;
@@ -738,27 +738,22 @@ background-color: var(--second-btn-color);
 
 .project-item {
   width: calc((100% - 60px) /3);
-position: relative;
-   overflow: hidden;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-transition:  box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-item:hover .window-owerlay,
-.project-item:focus .window-owerlay {
-  transform: translateY(0);
-   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-
- }
 
 .tehno-product {
- position: relative;
- overflow: hidden;
+  position: relative;
+   overflow: hidden;
 }
+
 .tehno-product:hover .window-owerlay,
 .tehno-product:focus .window-owerlay{
- transform: translateY(0);
- }
+   transform: translateY(100%);
+ 
+}
+ 
+
+
 
 
 .window-owerlay {
