@@ -136,6 +136,17 @@ bottom: 0;
   align-items: center;
 }
 
+.portfolio::before {
+  content: "";
+  height: 4px;
+  width: 78px;
+  border-radius: 2px;
+  width: 78px;
+  background-color: var(--second-btn-color);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 
 .logo-web {
   color: var(--color-logo);
@@ -709,26 +720,26 @@ background-color: var(--second-btn-color);
 
 /* project */
 
-.portfolio-link {
+.owerlay-card {
    text-decoration: none;
   color:var(--second-title-color);
   font-size: 16px;
   line-height: 1.87;
  display: block;
- 
 transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
-.portfolio-link:hover,
-.portfolio-link:focus {
+.owerlay-card:hover,
+.owerlay-card:focus {
  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
    
 }
-.portfolio-link:hover .window-owerlay,
-.portfolio-link:focus .window-owerlay {
+.owerlay-card:hover .window-owerlay,
+.owerlay-card:focus .window-owerlay {
   transform: translateY(0);
 }
+
    
 .project-container {
    background-color: var(--color-container);
@@ -743,7 +754,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .tehno-product {
   position: relative;
-   overflow: hidden;
+  overflow: hidden;
+ 
 }
 
 .tehno-product:hover .window-owerlay,
@@ -751,8 +763,11 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
    transform: translateY(100%);
  
 }
- 
-
+.tehno-product:hover,
+.tehno-product:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+    0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 
 
@@ -805,10 +820,8 @@ margin-top: 4px;
    padding: 20px 24px;
     border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    width: 370px;
-}
+  border-right: 1px solid #eeeeee;}
+   
 
 
 
